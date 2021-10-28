@@ -21,7 +21,7 @@ file_directory = 'Desktop\\etl-project'
 
 ## Alternatively - Go to the ***'seperate_collection_etl_processes'*** directory and run each of the following scripts to run the complete etl process
 - yahoo finance_ANZ CBA_Balance_sheets.ipynb
-- yahoo finance_ANZ CBA_Stock History Year Month Average
+- yahoo finance_ANZ CBA_Stock History Year Month Average.ipynb
 - yahoo finance_ANZ CBA_Stocks Cash Flow.ipynb
 - yahoo finance_ANZ CBA_Stocks Income statements.ipynb
 - yahoo finance_ANZ CBA_Stocks Summary Table.ipynb
