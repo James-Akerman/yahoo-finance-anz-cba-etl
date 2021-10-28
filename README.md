@@ -17,22 +17,22 @@ prefs = {"download.default_directory" : f"/Users/{user}/Desktop/Bootcamp/etl-pro
 # Complete ETL Process.ipnb include entire ETL process in one integrated script
 
 # Outcomes includes : 
-# 1> Creating database and collections in MongoDB
-# 2> Saving Historical Data as CSV file into local directory
+- 1) Creating database and collections in MongoDB
+- 2) Saving Historical Data as CSV file into local directory
 
 # Alternatibvely -- Run ETL files seperately to get data of each inividual component
-1> Summary
-2> Stock_Historical_data
-3> Cash_Flow
-4> Balance_sheet
-5> Income_statement
+- 1) Summary
+- 2) Stock_Historical_data
+- 3) Cash_Flow
+- 4) Balance_sheet
+- 5) Income_statement
 
 
 # Report is included
 
 - Data Resources: Yahoo Finance
- - ANZ: https://au.finance.yahoo.com/quote/ANZ.AX
- - CBA: https://au.finance.yahoo.com/quote/CBA.AX
+-- ANZ: https://au.finance.yahoo.com/quote/ANZ.AX
+-- CBA: https://au.finance.yahoo.com/quote/CBA.AX
 
 - Web Scraping Tools: Beautiful Soup, Selenium
 - Database: MongoDB
