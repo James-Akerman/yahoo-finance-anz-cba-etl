@@ -14,12 +14,12 @@ For where requires directory path, please change {user} to according to your own
 ##### Note: The ***Complete ETL Process.Ipynb*** jupyter notebook includes entire ETL process in one integrated script.
 
 
-## Alternatively - Go to the ***'seperate_collection_etl_processes'*** directory and run each of the collection ETL files seperately to get data of each inividual component from the 
-1) Summary
-2) Stock_Historical_data
-3) Cash_Flow
-4) Balance_sheet
-5) Income_statement
+## Alternatively - Go to the ***'seperate_collection_etl_processes'*** directory and run each of the following scripts to run the complete etl process
+1) yahoo finance_ANZ CBA_Balance_sheets.ipynb
+2) yahoo finance_ANZ CBA_Stock History Year Month Average
+3) yahoo finance_ANZ CBA_Stocks Cash Flow.ipynb
+4) yahoo finance_ANZ CBA_Stocks Income statements.ipynb
+5) yahoo finance_ANZ CBA_Stocks Summary Table.ipynb
 
 ## Outcomes of running this ETL include: 
 1) Creating database and collections in MongoDB
