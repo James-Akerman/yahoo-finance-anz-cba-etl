@@ -1,4 +1,4 @@
-Instructions:
+## Instructions:
 - Run jupyter Notebook environment
 
 - Set up MongoDB connection
@@ -14,25 +14,25 @@ For where requires directory path, please change {user} to according to your own
 prefs = {"download.default_directory" : f"/Users/{user}/Desktop/Bootcamp/etl-project"}
 
 
-# Complete ETL Process.ipnb include entire ETL process in one integrated script
+## Complete ETL Process.ipnb include entire ETL process in one integrated script
 
-# Outcomes includes : 
-- 1) Creating database and collections in MongoDB
-- 2) Saving Historical Data as CSV file into local directory
+## Outcomes includes : 
+1) Creating database and collections in MongoDB
+2) Saving Historical Data as CSV file into local directory
 
-# Alternatibvely -- Run ETL files seperately to get data of each inividual component
-- 1) Summary
-- 2) Stock_Historical_data
-- 3) Cash_Flow
-- 4) Balance_sheet
-- 5) Income_statement
+## Alternatibvely -- Run ETL files seperately to get data of each inividual component
+1) Summary
+2) Stock_Historical_data
+3) Cash_Flow
+4) Balance_sheet
+5) Income_statement
 
 
-# Report is included
+## Report is included
 
 - Data Resources: Yahoo Finance
--- ANZ: https://au.finance.yahoo.com/quote/ANZ.AX
--- CBA: https://au.finance.yahoo.com/quote/CBA.AX
+1) ANZ: https://au.finance.yahoo.com/quote/ANZ.AX
+2) CBA: https://au.finance.yahoo.com/quote/CBA.AX
 
 - Web Scraping Tools: Beautiful Soup, Selenium
 - Database: MongoDB
