@@ -8,7 +8,7 @@
 - Run the ***Complete ETL Process.Ipynb*** jupyter notebook.
 
 ***Caution:*** 
-For where requires directory path, please change {user} to according to your own file path as the example below:
+For where requires directory path, please change {user} according to your own file path as the example below:
 - prefs = {"download.default_directory" : f"/Users/{user}/Desktop/Bootcamp/etl-project"}
 
 ##### Note: The ***Complete ETL Process.Ipynb*** jupyter notebook includes entire ETL process in one integrated script.
