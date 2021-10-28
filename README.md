@@ -14,11 +14,11 @@ For where requires directory path, please change {user} to according to your own
 prefs = {"download.default_directory" : f"/Users/{user}/Desktop/Bootcamp/etl-project"}
 
 
-# Complete ETL Process.ipnb include entire ETL process in one integrated script
+#Complete ETL Process.ipnb include entire ETL process in one integrated script
 
 #Outcomes includes : 
-# 1> Creating database and collections in MongoDB
-# 2> Saving Historical Data as CSV file into local directory
+#1> Creating database and collections in MongoDB
+#2> Saving Historical Data as CSV file into local directory
 
 #Alternatibvely -- Run ETL files seperately to get data of each inividual component
 1> Summary
@@ -28,7 +28,7 @@ prefs = {"download.default_directory" : f"/Users/{user}/Desktop/Bootcamp/etl-pro
 5> Income_statement
 
 
-
+#Report is included
 
 Web Scrape Resources: https://au.finance.yahoo.com/quote/ANZ.AX/cash-flow?p=ANZ.AX
 Scrape Tool: Beautiful Soup
