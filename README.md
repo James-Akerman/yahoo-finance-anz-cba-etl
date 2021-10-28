@@ -11,12 +11,8 @@
 For where requires directory path, please change {user} to according to your own file path as the example below:
 - prefs = {"download.default_directory" : f"/Users/{user}/Desktop/Bootcamp/etl-project"}
 
+##### Note: The ***Complete ETL Process.Ipynb*** jupyter notebook includes entire ETL process in one integrated script.
 
-### Note: The ***Complete ETL Process.Ipynb*** jupyter notebook includes entire ETL process in one integrated script.
-
-## Outcomes included: 
-1) Creating database and collections in MongoDB
-2) Saving Historical Data as CSV file into local directory
 
 ## Alternatively -- Go to the ***seperate_collection_etl_processes*** directory and run each of the collection ETL files seperately to get data of each inividual component from the 
 1) Summary
@@ -25,6 +21,9 @@ For where requires directory path, please change {user} to according to your own
 4) Balance_sheet
 5) Income_statement
 
+## Outcomes of running this ETL include: 
+1) Creating database and collections in MongoDB
+2) Saving Historical Data as CSV file into local directory
 
 ## A Report describing the aims and purpose of this ETL process is included
 
