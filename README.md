@@ -15,15 +15,15 @@ For where requires directory path, please change {user} to according to your own
 
 
 ## Alternatively - Go to the ***'seperate_collection_etl_processes'*** directory and run each of the following scripts to run the complete etl process
-1) yahoo finance_ANZ CBA_Balance_sheets.ipynb
-2) yahoo finance_ANZ CBA_Stock History Year Month Average
-3) yahoo finance_ANZ CBA_Stocks Cash Flow.ipynb
-4) yahoo finance_ANZ CBA_Stocks Income statements.ipynb
-5) yahoo finance_ANZ CBA_Stocks Summary Table.ipynb
+- yahoo finance_ANZ CBA_Balance_sheets.ipynb
+- yahoo finance_ANZ CBA_Stock History Year Month Average
+- yahoo finance_ANZ CBA_Stocks Cash Flow.ipynb
+- yahoo finance_ANZ CBA_Stocks Income statements.ipynb
+- yahoo finance_ANZ CBA_Stocks Summary Table.ipynb
 
 ## Outcomes of running this ETL include: 
-1) Creating database and collections in MongoDB
-2) Saving Historical Data as CSV file into local directory
+- Creating database and collections in MongoDB
+- Saving Historical Data as CSV file into local directory
 
 ## A Report describing the aims and purpose of this ETL process is included
 
