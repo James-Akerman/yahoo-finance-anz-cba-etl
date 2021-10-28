@@ -14,7 +14,7 @@ For where requires directory path, please change {user} to according to your own
 prefs = {"download.default_directory" : f"/Users/{user}/Desktop/Bootcamp/etl-project"}
 
 
-## Complete ETL Process.ipnb include entire ETL process in one integrated script
+### Complete ETL Process.ipnb includeS entire ETL process in one integrated script
 
 ## Outcomes includes : 
 1) Creating database and collections in MongoDB
@@ -31,8 +31,8 @@ prefs = {"download.default_directory" : f"/Users/{user}/Desktop/Bootcamp/etl-pro
 ## Report is included
 
 - Data Resources: Yahoo Finance
-1) ANZ: https://au.finance.yahoo.com/quote/ANZ.AX
-2) CBA: https://au.finance.yahoo.com/quote/CBA.AX
+  1) ANZ: https://au.finance.yahoo.com/quote/ANZ.AX
+  2) CBA: https://au.finance.yahoo.com/quote/CBA.AX
 
 - Web Scraping Tools: Beautiful Soup, Selenium
 - Database: MongoDB
