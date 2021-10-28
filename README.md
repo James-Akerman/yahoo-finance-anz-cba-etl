@@ -9,6 +9,10 @@
 
 ***Caution:*** 
 For where requires directory path, please change {user} according to your own file path as the example below:
+
+user = '{UserName}'
+file_directory = 'Desktop\\etl-project'
+
 - prefs = {"download.default_directory" : f"/Users/{user}/Desktop/Bootcamp/etl-project"}
 
 ##### Note: The ***Complete ETL Process.Ipynb*** jupyter notebook includes entire ETL process in one integrated script.
