@@ -9,9 +9,9 @@ Run Complete ETL Process.Ipynb
 
 *** Caution: *** 
 
-For where requires directory path, please change to your own file path acoordingly as the example below:
+For where requires directory path, please change {user} to according to your own file path as the example below:
 
-prefs = {"download.default_directory" : f"/Users/lino/Desktop/Bootcamp/etl-project"}
+prefs = {"download.default_directory" : f"/Users/{user}/Desktop/Bootcamp/etl-project"}
 
 
 # Complete ETL Process.ipnb include entire ETL process in one integrated script
