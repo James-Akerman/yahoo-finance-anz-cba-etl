@@ -16,11 +16,11 @@ prefs = {"download.default_directory" : f"/Users/{user}/Desktop/Bootcamp/etl-pro
 
 ### Complete ETL Process.ipnb includeS entire ETL process in one integrated script
 
-## Outcomes includes : 
+## Outcomes included: 
 1) Creating database and collections in MongoDB
 2) Saving Historical Data as CSV file into local directory
 
-## Alternatibvely -- Run ETL files seperately to get data of each inividual component
+## Alternatively -- Go to the ***seperate_collection_etl_processes*** directory and run each of the collection ETL files seperately to get data of each inividual component from the 
 1) Summary
 2) Stock_Historical_data
 3) Cash_Flow
