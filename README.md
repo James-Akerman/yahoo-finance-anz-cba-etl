@@ -30,7 +30,7 @@ file_directory = 'Desktop\\etl-project'
 - Creating database and collections in MongoDB
 - Saving Historical Data as CSV file into local directory
 
-## A Report describing the aims, purpose, and further information about this ETL process is included called ***'ETL Report_Group 7.pdf'***
+## A report describing the aims, purpose, and further information about this ETL process is included called ***'ETL Report_Group 7.pdf'***
 
 ## Resouces used for this project
 - Data Resources: Yahoo Finance
