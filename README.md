@@ -1,10 +1,14 @@
 # Yahoo Finance ANZ/CBA ETL
 This is an ETL (extract, transform, load) process which scrapes several pages of the most recent data from the Yahoo Finance website regarding the the CBA (Commonwealth Bank of Australia) and ANZ (Australia and New Zealand Banking Group Limited) stocks.
 
+![Stocks](images/stocks.PNG)
+
 This ETL process creates a database in MongoDB containing two collections for both stocks, and two stock historical data csv files for both stocks and saves them in the location of the cloned repository.
 
+**Database Structure**
 ![Database Structure](images/collections.PNG)
 
+**Example collection (Income Statements)**
 ![Income Statements](images/income-statements.PNG)
 
 ## Tools/Packages used
@@ -27,5 +31,5 @@ This ETL process creates a database in MongoDB containing two collections for bo
 
 ## Resouces used for this project
 - Data Resources: Yahoo Finance
-  1) ANZ: https://au.finance.yahoo.com/quote/ANZ.AX
-  2) CBA: https://au.finance.yahoo.com/quote/CBA.AX
+  - ANZ: https://au.finance.yahoo.com/quote/ANZ.AX
+  - CBA: https://au.finance.yahoo.com/quote/CBA.AX
