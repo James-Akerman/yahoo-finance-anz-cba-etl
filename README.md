@@ -21,6 +21,7 @@ This ETL process creates a database in MongoDB containing two collections for bo
 - Pip install all the modules listed in ***Tools/Packages used***.
 - open jupyter notebook in git bash and open the ***Complete ETL Process.Ipynb*** notebook.
 - change the the variable ```user``` on line 30.
+
 ![Change User name](images/change-user-name.PNG)
 
 ## Resouces used for this project
