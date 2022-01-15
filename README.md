@@ -7,10 +7,12 @@ This ETL process creates a database in MongoDB containing two collections for bo
 
 
 **Database Structure**
+
 ![Database Structure](images/collections.PNG)
 
 
 **Example collection (Income Statements)**
+
 ![Income Statements](images/income-statements.PNG)
 
 
