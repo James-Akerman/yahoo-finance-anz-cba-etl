@@ -1,40 +1,25 @@
-## Instructions:
-- Run jupyter Notebook environment
+# Yahoo Finance ANZ/CBA ETL
+This is an ETL (extract, transform, load) process which scrapes several pages of the most recent data from the Yahoo Finance website regarding the the CBA (Commonwealth Bank of Australia) and ANZ (Australia and New Zealand Banking Coorperation) stocks.
 
-- Set up MongoDB connection
+This ETL process creates a database in MongoDB containing two collections for both stocks, and two stock historical data csv files for both stocks and saves them in the location of the cloned repository.
 
-- Pip install packages required in Complete ETL Process.Ipynb
+## Tools/Packages used
+- Python
+  - datetime
+  - splinter
+  - BeautifulSoup
+  - selenium import webdriver
+  - pandas
+  - pymongo
+- MongoDB
 
-- Run the ***Complete ETL Process.Ipynb*** jupyter notebook.
-
-***Caution:*** 
-For where requires directory path, please change {user} according to your own file path as the example below:
-
-user = '{UserName}'
-
-file_directory = 'Desktop\\etl-project'
-
-- prefs = {"download.default_directory" : f"/Users/{user}/Desktop/Bootcamp/etl-project"}
-
-##### Note: The ***Complete ETL Process.Ipynb*** jupyter notebook includes entire ETL process in one integrated script.
-
-
-## Alternatively - Go to the ***'seperate_collection_etl_processes'*** directory and run each of the following scripts to run the complete etl process
-- yahoo finance_ANZ CBA_Balance_sheets.ipynb
-- yahoo finance_ANZ CBA_Stock History Year Month Average.ipynb
-- yahoo finance_ANZ CBA_Stocks Cash Flow.ipynb
-- yahoo finance_ANZ CBA_Stocks Income statements.ipynb
-- yahoo finance_ANZ CBA_Stocks Summary Table.ipynb
-
-## Outcomes of running this ETL include: 
-- Creating database and collections in MongoDB
-- Saving Historical Data as CSV file into local directory
-
-## A report describing the aims, purpose, and further information about this ETL process is included called ***'ETL Report_Group 7.pdf'***
+## How to use
+- Clone the respostiory to your Desktop.
+- Pip install all the modules listed in ***Tools/Packages used***.
+- open jupyter notebook in git bash and open the ***Complete ETL Process.Ipynb*** notebook.
+- change the the variable ```user``` on line 10.
 
 ## Resouces used for this project
 - Data Resources: Yahoo Finance
   1) ANZ: https://au.finance.yahoo.com/quote/ANZ.AX
   2) CBA: https://au.finance.yahoo.com/quote/CBA.AX
-- Web Scraping Tools: Beautiful Soup, Selenium
-- Database: MongoDB
