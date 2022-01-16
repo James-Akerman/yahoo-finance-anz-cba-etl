@@ -3,19 +3,21 @@ This is an ETL (extract, transform, load) process which scrapes several pages of
 
 ![yahoo-finance](images/yahoo-finance.PNG)
 
-This ETL process creates a database in MongoDB containing two collections for both stocks, and two stock historical data csv files for both stocks and saves them in the location of the cloned repository.
+<br>
 
+This ETL process creates a database in MongoDB containing two collections for both stocks, and two stock historical data csv files for both stocks and saves them in the location of the cloned repository.
 
 **Database Structure**
 
 ![Database Structure](images/collections.PNG)
 
+<br>
 
 **Example collection (Income Statements)**
 
 ![Income Statements](images/income-statements.PNG)
 
-
+<br>
 
 ## Tools/Packages used
 - Python
@@ -27,7 +29,7 @@ This ETL process creates a database in MongoDB containing two collections for bo
   - pymongo
 - MongoDB
 
-
+<br>
 
 ## How to use
 - Clone the respostiory to your Desktop.
@@ -37,7 +39,7 @@ This ETL process creates a database in MongoDB containing two collections for bo
 
 ![Change User name](images/change-user-name.PNG)
 
-
+<br>
 
 ## Resouces used for this project
 - Data Resources: Yahoo Finance
