@@ -1,4 +1,7 @@
 # Yahoo Finance ANZ/CBA ETL
+
+## Overview of the Project
+
 This is an ETL (extract, transform, load) process which scrapes several pages of the most recent data from the Yahoo Finance website regarding the the CBA (Commonwealth Bank of Australia) and ANZ (Australia and New Zealand Banking Group Limited) stocks.
 
 ![yahoo-finance](images/yahoo-finance.PNG)
